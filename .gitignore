@@ -1,0 +1,9 @@
+﻿node_modules/
+.vscode/
+.idea/
+package-lock.json
+yarn.lock
+coverage/
+stats.html
+dist/
+__tests__/__image_snapshots__

@@ -1,0 +1,36 @@
+{
+  "name": "jest-image-snapshot-examples",
+  "version": "0.0.0",
+  "description": "Example jest-image-snapshot usage",
+  "scripts": {
+    "test": "jest",
+    "updateSnapshot": "jest --updateSnapshot",
+    "run-http-server": "http-server ./public"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "7.24.7",
+    "@babel/plugin-transform-runtime": "7.24.7",
+    "@babel/preset-env": "7.24.7",
+    "@babel/preset-typescript": "7.24.7",
+    "@babel/runtime": "7.24.7",
+    "@types/jest": "29.5.12",
+    "@types/node": "20.14.9",
+    "cross-env": "7.0.3",
+    "http-server": "14.1.1",
+    "jest": "29.7.0",
+    "jest-image-snapshot": "6.4.0",
+    "jest-environment-jsdom": "29.7.0",
+    "puppeteer": "22.15.0",
+    "ts-jest": "29.1.5",
+    "ts-node": "10.9.2",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "5.5.2",
+      "tslib": "2.6.3"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest-setup.js"
+    ]
+  }
+}
